@@ -13,9 +13,6 @@ anyone, anywhere in the world. Lambocoin uses a proof-of-stake method in order f
 the Lambocoin blockchain network to achieve distributed consensus. Lambocoin Core is
 the name of open source software which enables the use of this currency.
 
-For more information, as well as an immediately useable, binary version of the
-Lambocoin Core software, see https://www.Lambocoin.com/#wallet.
-
 License
 -------
 
