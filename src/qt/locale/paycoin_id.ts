@@ -3,12 +3,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Paycoin</source>
-        <translation>Tentang Paycoin</translation>
+        <source>About Lambocoin</source>
+        <translation>Tentang Lambocoin</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Paycoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;b&gt;Lambocoin&lt;/b&gt; version</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Lambocoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     </context>
 <context>
@@ -18,8 +18,8 @@
         <translation>Buku Alamat</translation>
     </message>
     <message>
-        <source>These are your Paycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ini adalah alamat Paycoin Anda untuk menerima pembayaran. Anda mungkin ingin memberikan yang berbeda untuk masing-masing pengirim sehingga Anda dapat melacak siapa yang membayar Anda.</translation>
+        <source>These are your Lambocoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Ini adalah alamat Lambocoin Anda untuk menerima pembayaran. Anda mungkin ingin memberikan yang berbeda untuk masing-masing pengirim sehingga Anda dapat melacak siapa yang membayar Anda.</translation>
     </message>
     <message>
         <source>Double-click to edit address or label</source>
@@ -150,8 +150,8 @@ Are you sure you wish to encrypt your wallet?</source>
 Apakah Anda yakin ingin mengenkripsi dompet Anda?</translation>
     </message>
     <message>
-        <source>Paycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Paycoins from being stolen by malware infecting your computer.</source>
-        <translation>Paycoin akan menutup sekarang untuk menyelesaikan proses enkripsi. Ingat bahwa mengenkripsi dompet Anda tidak dapat sepenuhnya melindungi Paycoins Anda dari yang dicuri oleh malware menginfeksi komputer Anda.</translation>
+        <source>Lambocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Lambocoins from being stolen by malware infecting your computer.</source>
+        <translation>Lambocoin akan menutup sekarang untuk menyelesaikan proses enkripsi. Ingat bahwa mengenkripsi dompet Anda tidak dapat sepenuhnya melindungi Lambocoins Anda dari yang dicuri oleh malware menginfeksi komputer Anda.</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
@@ -229,8 +229,8 @@ Apakah Anda yakin ingin mengenkripsi dompet Anda?</translation>
         <translation>Berhenti aplikasi</translation>
     </message>
     <message>
-        <source>Show information about Paycoin</source>
-        <translation>Tampilkan informasi tentang Paycoin</translation>
+        <source>Show information about Lambocoin</source>
+        <translation>Tampilkan informasi tentang Lambocoin</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -305,32 +305,32 @@ Apakah Anda yakin ingin mengenkripsi dompet Anda?</translation>
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Paycoin Wallet</source>
-        <translation>Dompet Paycoin</translation>
+        <source>Lambocoin Wallet</source>
+        <translation>Dompet Lambocoin</translation>
     </message>
     <message>
-        <source>Send coins to a Paycoin address</source>
-        <translation>Kirim koin ke alamat Paycoin</translation>
+        <source>Send coins to a Lambocoin address</source>
+        <translation>Kirim koin ke alamat Lambocoin</translation>
     </message>
     <message>
-        <source>&amp;About Paycoin</source>
-        <translation>Tentang Paycoin</translation>
+        <source>&amp;About Lambocoin</source>
+        <translation>Tentang Lambocoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Paycoin</source>
-        <translation>Memodifikasi pilihan konfigurasi untuk Paycoin</translation>
+        <source>Modify configuration options for Lambocoin</source>
+        <translation>Memodifikasi pilihan konfigurasi untuk Lambocoin</translation>
     </message>
     <message>
-        <source>Show/Hide &amp;Paycoin</source>
-        <translation>Tampilkan/Sembunyikan Paycoin</translation>
+        <source>Show/Hide &amp;Lambocoin</source>
+        <translation>Tampilkan/Sembunyikan Lambocoin</translation>
     </message>
     <message>
-        <source>Show or hide the Paycoin window</source>
-        <translation>Tampilkan atau sembunyikan jendela Paycoin</translation>
+        <source>Show or hide the Lambocoin window</source>
+        <translation>Tampilkan atau sembunyikan jendela Lambocoin</translation>
     </message>
     <message>
-        <source>Paycoin client</source>
-        <translation>Klien Paycoin</translation>
+        <source>Lambocoin client</source>
+        <translation>Klien Lambocoin</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -400,8 +400,8 @@ Alamat: %4</translation>
         <translation>Terjadi error saat mencoba untuk menyimpan data dompet ke lokasi baru.</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Paycoin can no longer continue safely and will quit.</source>
-        <translation>Sebuah error fatal terjadi. Paycoin tidak bisa lagi melanjutkan dengan aman dan akan berhenti.</translation>
+        <source>A fatal error occurred. Lambocoin can no longer continue safely and will quit.</source>
+        <translation>Sebuah error fatal terjadi. Lambocoin tidak bisa lagi melanjutkan dengan aman dan akan berhenti.</translation>
     </message>
     </context>
 <context>
@@ -598,8 +598,8 @@ Alamat: %4</translation>
         <translation>Tampilan Alamat dalam daftar transaksi</translation>
     </message>
     <message>
-        <source>Whether to show Paycoin addresses in the transaction list</source>
-        <translation>Apakah menampilkan alamat Paycoin dalam daftar transaksi</translation>
+        <source>Whether to show Lambocoin addresses in the transaction list</source>
+        <translation>Apakah menampilkan alamat Lambocoin dalam daftar transaksi</translation>
     </message>
     <message>
         <source>Display coin control features (experts only!)</source>
@@ -653,8 +653,8 @@ Alamat: %4</translation>
         <translation>Alamat yang di masukkan "%1" sudah di buku alamat.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Paycoin address.</source>
-        <translation>Alamat yang di masukkan "%1" tidak berlaku di alamat Paycoin</translation>
+        <source>The entered address "%1" is not a valid Lambocoin address.</source>
+        <translation>Alamat yang di masukkan "%1" tidak berlaku di alamat Lambocoin</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -909,8 +909,8 @@ Alamat: %4</translation>
         <translation>Hapus konsol</translation>
     </message>
     <message>
-        <source>Welcome to the Paycoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Selamat datang di konsol Paycoin RPC. &lt;br&gt;Gunakan panah atas dan bawah untuk menavigasi sejarah, dan &lt;b&gt;Ctrl-L&lt;/b&gt; untuk menghapus layar. &lt;br&gt;Type &lt;b&gt;help&lt;/b&gt;  untuk overview command yang tersedia.</translation>
+        <source>Welcome to the Lambocoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Selamat datang di konsol Lambocoin RPC. &lt;br&gt;Gunakan panah atas dan bawah untuk menavigasi sejarah, dan &lt;b&gt;Ctrl-L&lt;/b&gt; untuk menghapus layar. &lt;br&gt;Type &lt;b&gt;help&lt;/b&gt;  untuk overview command yang tersedia.</translation>
     </message>
     </context>
 <context>
@@ -1064,7 +1064,7 @@ Alamat: %4</translation>
         <translation>Jumlah untuk membayar setidaknya harus satu sen (0.01).</translation>
     </message>
     <message>
-        <source>Warning: Invalid Paycoin address</source>
+        <source>Warning: Invalid Lambocoin address</source>
         <translation>Peringatan: Alamat Bitcoin tidak valid</translation>
     </message>
     <message>
@@ -1076,8 +1076,8 @@ Alamat: %4</translation>
         <translation>(no label)</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>Masukkan alamat Paycoin</translation>
+        <source>Enter a Lambocoin address</source>
+        <translation>Masukkan alamat Lambocoin</translation>
     </message>
     </context>
 <context>
@@ -1174,8 +1174,8 @@ Alamat: %4</translation>
         <translation>Salin tanda tangan saat ini ke sistem clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Paycoin address</source>
-        <translation>Masuk pesan untuk membuktikan bahwa Anda sudah memiliki alamat Paycoin ini</translation>
+        <source>Sign the message to prove you own this Lambocoin address</source>
+        <translation>Masuk pesan untuk membuktikan bahwa Anda sudah memiliki alamat Lambocoin ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1202,8 +1202,8 @@ Alamat: %4</translation>
         <translation>Alamat pesan ditandatangani dengan</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Paycoin address</source>
-        <translation>Verifikasi pesan untuk memastikan ditandatangani dengan alamati Paycoin yang ditentukan</translation>
+        <source>Verify the message to ensure it was signed with the specified Lambocoin address</source>
+        <translation>Verifikasi pesan untuk memastikan ditandatangani dengan alamati Lambocoin yang ditentukan</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1222,8 +1222,8 @@ Alamat: %4</translation>
         <translation>Masukkan tanda tangan dari pesan</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>Masukkan alamat Paycoin</translation>
+        <source>Enter a Lambocoin address</source>
+        <translation>Masukkan alamat Lambocoin</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -1570,8 +1570,8 @@ Alamat: %4</translation>
         <translation>Penggunaan:</translation>
     </message>
     <message>
-        <source>Paycoin version</source>
-        <translation>Versi Paycoin</translation>
+        <source>Lambocoin version</source>
+        <translation>Versi Lambocoin</translation>
     </message>
     <message>
         <source>List commands</source>
@@ -1586,12 +1586,12 @@ Alamat: %4</translation>
         <translation>Pilihan:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: paycoin.conf)</source>
-        <translation>File konfigurasi ditentukan (default: paycoin.conf)</translation>
+        <source>Specify configuration file (default: Lambocoin.conf)</source>
+        <translation>File konfigurasi ditentukan (default: Lambocoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Menentukan file pid (default: paycoind.pid)</translation>
+        <source>Specify pid file (default: Lambocoind.pid)</source>
+        <translation>Menentukan file pid (default: Lambocoind.pid)</translation>
     </message>
     <message>
         <source>Generate coins</source>
@@ -1742,24 +1742,24 @@ Alamat: %4</translation>
         <translation>Ciphers diterima (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s.  Paycoin is probably already running.</source>
-        <translation>Tidak dapat memperoleh kunci pada direktori data %s. Paycoin mungkin sudah berjalan.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Lambocoin is probably already running.</source>
+        <translation>Tidak dapat memperoleh kunci pada direktori data %s. Lambocoin mungkin sudah berjalan.</translation>
     </message>
     <message>
-        <source>Paycoin</source>
-        <translation>Paycoin</translation>
+        <source>Lambocoin</source>
+        <translation>Lambocoin</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Paycoin</source>
-        <translation>Error loading wallet.dat: Dompet memerlukan versi terbaru dari Paycoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Lambocoin</source>
+        <translation>Error loading wallet.dat: Dompet memerlukan versi terbaru dari Lambocoin</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Paycoin to complete</source>
-        <translation>Dompet perlu ditulis ulang: me-restart Paycoin untuk menyelesaikan</translation>
+        <source>Wallet needed to be rewritten: restart Lambocoin to complete</source>
+        <translation>Dompet perlu ditulis ulang: me-restart Lambocoin untuk menyelesaikan</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Paycoin will not work properly.</source>
-        <translation>Peringatan: Harap periksa tanggal komputer Anda dan waktu sudah benar. Jika jam Anda salah Paycoin tidak akan berfungsi.</translation>
+        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Lambocoin will not work properly.</source>
+        <translation>Peringatan: Harap periksa tanggal komputer Anda dan waktu sudah benar. Jika jam Anda salah Lambocoin tidak akan berfungsi.</translation>
     </message>
     <message>
         <source>Loading addresses...</source>

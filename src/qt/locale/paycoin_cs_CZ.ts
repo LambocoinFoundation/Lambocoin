@@ -1029,8 +1029,8 @@ Adresa: %4
         <translation>Možnosti:</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>PID soubor (výchozí: paycoind.pid)</translation>
+        <source>Specify pid file (default: Lambocoind.pid)</source>
+        <translation>PID soubor (výchozí: Lambocoind.pid)</translation>
     </message>
     <message>
         <source>Generate coins</source>

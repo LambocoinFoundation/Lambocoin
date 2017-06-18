@@ -919,8 +919,8 @@ Endereço: %4</translation>
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Specify pid file (default: paycoind.pid)
+        <source>Specify pid file (default: Lambocoind.pid)</source>
+        <translation>Specify pid file (default: Lambocoind.pid)
 </translation>
     </message>
     <message>

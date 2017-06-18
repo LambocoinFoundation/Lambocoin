@@ -1,4 +1,4 @@
-IDI_ICON1 ICON DISCARDABLE "icons/paycoin.ico"
+IDI_ICON1 ICON DISCARDABLE "icons/Lambocoin.ico"
 
 #include <windows.h> // needed for VERSIONINFO
 
@@ -10,13 +10,13 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Paycoin"
-            VALUE "FileDescription",    "Paycoin-Qt (OSS GUI client for Paycoin)"
-            VALUE "InternalName",       "paycoin-qt"
-            VALUE "LegalCopyright",     "2014-2016 The Paycoin developers"
+            VALUE "CompanyName",        "Lambocoin"
+            VALUE "FileDescription",    "Lambocoin-Qt (OSS GUI client for Lambocoin)"
+            VALUE "InternalName",       "Lambocoin-qt"
+            VALUE "LegalCopyright",     "2014-2016 The Lambocoin developers"
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "paycoin-qt.exe"
-            VALUE "ProductName",        "Paycoin-Qt"
+            VALUE "OriginalFilename",   "Lambocoin-qt.exe"
+            VALUE "ProductName",        "Lambocoin-Qt"
         END
     END
 

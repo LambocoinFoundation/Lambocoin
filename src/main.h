@@ -2,6 +2,7 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2015 The Peercoin developers
 // Copyright (c) 2014-2015 The Paycoin developers
+// Copyright (c) 2016-2017 The Lambocoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_MAIN_H
@@ -25,20 +26,20 @@ class CAddress;
 class CInv;
 class CNode;
 
-static const unsigned int MAX_BLOCK_SIZE = 1000000;
+static const unsigned int MAX_BLOCK_SIZE = 200000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
 static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
 static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 static const int64 MIN_TX_FEE = 0.1 * CENT;
 static const int64 MIN_RELAY_TX_FEE = 0.1 * CENT;
-static const int64 MAX_MONEY = 2000000000 * COIN;
+static const int64 MAX_MONEY = 216843300 * COIN;
 static const int64 MAX_MINT_PROOF_OF_WORK = 9999 * COIN;
 static const int64 MIN_TXOUT_AMOUNT = MIN_TX_FEE;
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 static const int COINBASE_MATURITY_PPC = 100;
 // Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp.
 static const int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
-static const int STAKE_TARGET_SPACING = 1 * 60; // 1-minute block
+static const int STAKE_TARGET_SPACING = 1 * 12; // 12-second block
 static const int STAKE_MIN_AGE = 60 * 60; // minimum age for coin age
 static const int STAKE_MAX_AGE = 60 * 60 * 24 * 5; // stake age of full weight
 static const int STAKE_START_TIME = 1418470264; // Sat 13 Dec 2014 06:31:04 AM EST
@@ -58,7 +59,7 @@ static const int fHaveUPnP = true;
 static const int fHaveUPnP = false;
 #endif
 
-static const uint256 hashGenesisBlockOfficial("0x00000e5695fbec8e36c10064491946ee3b723a9fa640fc0e25d3b8e4737e53e3");
+static const uint256 hashGenesisBlockOfficial("0x0");
 static const uint256 hashGenesisBlockTestNet("0x0000000f6bb18c77c5b39a25fa03e4c90bffa5cc10d6d9758a1bed5adcee9404");
 
 
@@ -731,7 +732,7 @@ public:
     bool ClientConnectInputs();
     bool CheckTransaction() const;
     bool AcceptToMemoryPool(CTxDB& txdb, bool fCheckInputs=true, bool* pfMissingInputs=NULL);
-    bool GetCoinAge(CTxDB& txdb, uint64& nCoinAge) const;  // paycoin: get transaction coin age
+    bool GetCoinAge(CTxDB& txdb, uint64& nCoinAge) const;  // Lambocoin: get transaction coin age
 
 protected:
     const CTxOut& GetOutputFor(const CTxIn& input, const MapPrevTx& inputs) const;
@@ -875,7 +876,7 @@ public:
     // network and disk
     std::vector<CTransaction> vtx;
 
-    // paycoin: block signature - signed by coin base txout[0]'s owner
+    // Lambocoin: block signature - signed by coin base txout[0]'s owner
     std::vector<unsigned char> vchBlockSig;
 
     // memory only
@@ -944,7 +945,7 @@ public:
 
     void UpdateTime(const CBlockIndex* pindexPrev);
 
-    // paycoin: two types of block: proof-of-work or proof-of-stake
+    // Lambocoin: two types of block: proof-of-work or proof-of-stake
     bool IsProofOfStake() const
     {
         return (vtx.size() > 1 && vtx[1].IsCoinStake());
@@ -960,7 +961,7 @@ public:
         return IsProofOfStake()? std::make_pair(vtx[1].vin[0].prevout, vtx[1].nTime) : std::make_pair(COutPoint(), (unsigned int)0);
     }
 
-    // paycoin: get max transaction timestamp
+    // Lambocoin: get max transaction timestamp
     int64 GetMaxTransactionTime() const
     {
         int64 maxTransactionTime = 0;
@@ -1105,10 +1106,10 @@ public:
     bool AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos);
     bool CheckBlock(int64 nHeight=-1) const;
     bool AcceptBlock();
-    bool GetCoinAge(uint64& nCoinAge) const; // paycoin: calculate total coin age spent in block
+    bool GetCoinAge(uint64& nCoinAge) const; // Lambocoin: calculate total coin age spent in block
     bool SignBlock(const CKeyStore& keystore);
     bool CheckBlockSignature() const;
-    unsigned int GetStakeEntropyBit() const; // paycoin: entropy bit for stake modifier if chosen by modifier
+    unsigned int GetStakeEntropyBit() const; // Lambocoin: entropy bit for stake modifier if chosen by modifier
 
 private:
     bool SetBestChainInner(CTxDB& txdb, CBlockIndex *pindexNew);
@@ -1134,12 +1135,12 @@ public:
     CBlockIndex* pnext;
     unsigned int nFile;
     unsigned int nBlockPos;
-    CBigNum bnChainTrust; // paycoin: trust score of block chain
+    CBigNum bnChainTrust; // Lambocoin: trust score of block chain
     int nHeight;
     int64 nMint;
     int64 nMoneySupply;
 
-    unsigned int nFlags;  // paycoin: block index flags
+    unsigned int nFlags;  // Lambocoin: block index flags
     enum
     {
         BLOCK_PROOF_OF_STAKE = (1 << 0), // is proof-of-stake block
