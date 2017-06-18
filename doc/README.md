@@ -1,7 +1,7 @@
-Lambocoin 0.3.3.0
+Lambocoin 0.1.0.0
 ===============
 
-Copyright (c) 2014-2015 Lambocoin developers
+Copyright (c) 2015-2016 Lambocoin developers
 
 Distributed under the MIT software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
